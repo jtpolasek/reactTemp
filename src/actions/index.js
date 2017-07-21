@@ -1,7 +1,8 @@
 //api.openweathermap.org/data/2.5/forecast?q=London,us&mode=xml
 import axios from 'axios';
+import API_KEY from '../components/config';
 
-const API_KEY = 'ff4036ade4dd6f2d72dc877769766dd0';
+
 const ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 
